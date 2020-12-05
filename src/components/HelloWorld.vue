@@ -80,6 +80,8 @@
         </a>
       </li>
     </ul>
+    <router-link :to="{ path: '/Form'}">跳转Form</router-link>
+    <router-link :to="{ path: '/Test'}">跳转Test</router-link>
   </div>
 </template>
 
